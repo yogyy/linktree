@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+[un-cloak] {
+  display: none;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#app {
+  /* max-width: 780px;
+  min-height: 100%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  
+  border-radius: 20px; */
+  display: flex;
+  justify-content: center;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
